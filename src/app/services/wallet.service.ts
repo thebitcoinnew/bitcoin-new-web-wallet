@@ -66,7 +66,7 @@ export interface WalletApiAccount extends BaseApiAccount {
 @Injectable()
 export class WalletService {
   btcnew = 1000000000000000000000000;
-  storeKey = `btcnewvault-wallet`;
+  storeKey = `btcnew-web-wallet`;
 
   wallet: FullWallet = {
     type: 'seed',
@@ -297,7 +297,7 @@ export class WalletService {
     const exportData = this.generateExportData();
     const base64Data = btoa(JSON.stringify(exportData));
 
-    return `https://btcnewvault.io/import-wallet#${base64Data}`;
+    return `https://webwallet.bitev.be/import-wallet#${base64Data}`;
   }
 
   lockWallet() {

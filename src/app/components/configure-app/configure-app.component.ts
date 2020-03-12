@@ -96,7 +96,7 @@ export class ConfigureAppComponent implements OnInit {
   selectedPoWOption = this.powOptions[0].value;
 
   serverOptions = [
-    { name: 'Bitcoin New Web Wallet Default', value: 'btcnewvault' },
+    { name: 'Bitcoin New Web Wallet Default', value: 'btcnew-web-wallet' },
     { name: 'Custom', value: 'custom' },
   ];
   selectedServer = this.serverOptions[0].value;
@@ -108,7 +108,7 @@ export class ConfigureAppComponent implements OnInit {
 
   serverConfigurations = [
     {
-      name: 'btcnewvault',
+      name: 'btcnew-web-wallet',
       api: null,
       ws: null,
     }
@@ -259,7 +259,7 @@ export class ConfigureAppComponent implements OnInit {
       if (this.serverAPI.startsWith('https://') || this.serverAPI.startsWith('http://')) {
         newSettings.serverAPI = this.serverAPI;
       } else {
-        return this.notifications.sendWarning(`Custom API Server has an invalid address.  Make sure to use the full address ie: https://btcnewvault.io/api/node-api`);
+        return this.notifications.sendWarning(`Custom API Server has an invalid address.  Make sure to use the full address ie: https://webwallet.bitev.be/api/node-api`);
       }
     }
 
@@ -275,7 +275,7 @@ export class ConfigureAppComponent implements OnInit {
       if (this.serverWS.startsWith('wss://') || this.serverWS.startsWith('ws://')) {
         newSettings.serverWS = this.serverWS;
       } else {
-        return this.notifications.sendWarning(`Custom Update Server has an invalid address.  Make sure to use the full address ie: wss://ws.btcnewvault.io/`);
+        return this.notifications.sendWarning(`Custom Update Server has an invalid address.  Make sure to use the full address ie: wss://ws.bitev.be/`);
       }
     }
 

@@ -10,7 +10,7 @@ interface AddressBookEntry {
 
 @Injectable()
 export class AddressBookService {
-  storeKey = `btcnewvault-addressbook`;
+  storeKey = `btcnew-web-wallet-addressbook`;
 
   addressBook: AddressBookEntry[] = [];
 

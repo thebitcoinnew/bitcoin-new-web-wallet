@@ -4,7 +4,7 @@ import {NotificationService} from "./notification.service";
 
 @Injectable()
 export class WorkPoolService {
-  storeKey = `btcnewvault-workcache`;
+  storeKey = `btcnew-web-wallet-workcache`;
 
   cacheLength = 25;
   workCache = [];

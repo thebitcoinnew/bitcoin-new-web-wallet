@@ -23,7 +23,7 @@ interface AppSettings {
 
 @Injectable()
 export class AppSettingsService {
-  storeKey = `btcnewvault-appsettings`;
+  storeKey = `btcnew-web-wallet-appsettings`;
 
   settings: AppSettings = {
     displayDenomination: 'mbtcnew',
@@ -33,7 +33,7 @@ export class AppSettingsService {
     lockOnClose: 1,
     lockInactivityMinutes: 30,
     powSource: 'best',
-    serverName: 'btcnewvault',
+    serverName: 'btcnew-web-wallet',
     serverAPI: null,
     serverNode: null,
     serverWS: null,
@@ -87,7 +87,7 @@ export class AppSettingsService {
       lockOnClose: 1,
       lockInactivityMinutes: 30,
       powSource: 'best',
-      serverName: 'btcnewvault',
+      serverName: 'btcnew-web-wallet',
       serverNode: null,
       serverAPI: null,
       serverWS: null,

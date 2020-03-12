@@ -44,7 +44,7 @@ export interface FullRepresentativeOverview extends RepresentativeApiOverview {
 
 @Injectable()
 export class RepresentativeService {
-  storeKey = `btcnewvault-representatives`;
+  storeKey = `btcnew-web-wallet-representatives`;
 
   representatives$ = new BehaviorSubject([]);
   representatives = [];

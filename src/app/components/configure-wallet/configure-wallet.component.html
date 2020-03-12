@@ -81,10 +81,10 @@
     </div>
     <div uk-grid *ngIf="selectedImportOption === 'ledger'" class="uk-margin-top">
       <div class="uk-width-1-1">
-        <p>
-          Make sure you have the Bitcoin New app installed, then connect your ledger device via USB (Chrome/Opera only). <a href="http://blog.btcnewvault.io/guides/use-your-ledger-device-with-btcnewvault/" target="_blank">Learn More</a><br>
+        <!--<p>
+          Make sure you have the Bitcoin New app installed, then connect your ledger device via USB (Chrome/Opera only). <a href="http://blog.bitev.be/guides/use-your-ledger-device-with-bitev/" target="_blank">Learn More</a><br>
           <br>
-        </p>
+        </p>-->
         <div *ngIf="ledger.status === ledgerStatus.NOT_CONNECTED" class="uk-alert uk-alert-warning">
           <b>Ledger Device Not Connected</b><br>
           Connect your ledger device via USB and make sure you have the Bitcoin New app installed, then press the button below to retry

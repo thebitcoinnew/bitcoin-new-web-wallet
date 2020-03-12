@@ -223,10 +223,10 @@
                 <div class="uk-form-controls">
 
                   <div class="uk-inline uk-width-1-1" *ngIf="!showServerConfigs()">
-                    <strong>{{ serverAPI || 'https://btcnewvault.io/api/node-api' }}</strong>
+                    <strong>{{ serverAPI || 'https://webwallet.bitev.be/api/node-api' }}</strong>
                   </div>
                   <div class="uk-inline uk-width-1-1" *ngIf="showServerConfigs()">
-                    <input [(ngModel)]="serverAPI" class="uk-input uk-margin-small-bottom" type="text" placeholder="https://btcnewvault.io/api/node-api">
+                    <input [(ngModel)]="serverAPI" class="uk-input uk-margin-small-bottom" type="text" placeholder="https://webwallet.bitev.be/api/node-api">
                     <span class="uk-text-meta">
                       This server must be running the <a href="https://github.com/thebitcoinnew/bitcoin-new-web-wallet-server" target="_blank">Bitcoin New Web Wallet Server</a> application, or an API compliant with it.<br>
                       Timestamps in the application are dependant on this server's access to them.
@@ -267,11 +267,11 @@
                 <label class="uk-form-label uk-text-right">Updates Server <span uk-icon="icon: info;" uk-tooltip title="This server is used to notify the wallet in real time when new transactions arrive"></span></label>
                 <div class="uk-form-controls">
                   <div class="uk-inline uk-width-1-1" *ngIf="!showServerConfigs()">
-                    <strong>{{ serverWS || 'wss://ws.btcnewvault.io/' }}</strong>
+                    <strong>{{ serverWS || 'wss://ws.webwallet.bitev.be/' }}</strong>
                   </div>
 
                   <div class="uk-inline uk-width-1-1" *ngIf="showServerConfigs()">
-                    <input [(ngModel)]="serverWS" class="uk-input uk-margin-small-bottom" id="form-horizontal-text2" type="text" placeholder="wss://ws.btcnewvault.io/">
+                    <input [(ngModel)]="serverWS" class="uk-input uk-margin-small-bottom" id="form-horizontal-text2" type="text" placeholder="wss://ws.webwallet.bitev.be/">
                     <span class="uk-text-meta">
                       This server must be running the <a href="https://github.com/thebitcoinnew/bitcoin-new-web-wallet-ws" target="_blank">Bitcoin New Web Wallet Websocket</a> application, or a WebSocket API compliant with it.<br>
                       <i>Note: Since this server only notifies about new transactions, most of the wallet functions fine without it.</i>

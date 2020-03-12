@@ -15,7 +15,7 @@ export interface NinjaVerifiedRep {
 @Injectable()
 export class ApiService {
   //apiUrl = `http://localhost:9950/api`;
-  apiUrl = `http://api.webwallet.bitev.be/api`;
+  apiUrl = `https://api.webwallet.bitev.be/api`;
   rpcUrl = `${this.apiUrl}/node-api`;
 
   constructor(private http: HttpClient, private node: NodeService, private appSettings: AppSettingsService) { }
