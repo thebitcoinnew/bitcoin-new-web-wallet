@@ -335,39 +335,7 @@ export class RepresentativeService {
     {
       id: 'btcnew_1qsd46bau1r41k6rpcd95khwsnxiyofu86u7gxah3m544czhx1ffsf6n31fo',
       name: 'Official Rep 2'
-    },
-    {
-      id: 'btcnew_339mgzi7jm56t8z6sfmh3tsks1iam3j9pa51sg9sowqs8j9z4r9bjarzjbwe',
-      name: 'Official Rep 3'
-    },
-    {
-      id: 'btcnew_3dnw3nt31joqxrpq3ie3u4d4ryowbsnf3zpz4qt8kmpbstkjx3sjj59wsxq6',
-      name: 'Official Rep 4'
-    },
-    {
-      id: 'btcnew_3s9pozsoafo6qe7bgdtueth1jsd6nqo1z438zwmzykx6634urudqrpkz94za',
-      name: 'Official Rep 5'
-    },
-    {
-      id: 'btcnew_3hzyjuwuewkiqghs1pzhqn4598gxnantq488hta756tpfjwu5eqoq3qcjuu1',
-      name: 'Official Rep 6'
-    },
-    {
-      id: 'btcnew_1dmyk98g8s67g6pes7keuus7j8zpy93pzxun4g71o5wdi3p5pdnrhmzkitz3',
-      name: 'Official Rep 7'
-    },
-    {
-      id: 'btcnew_3zxopnc9jfj9uguui4dehoeysc797nkjg7xd9djtykciohoixejtqoqf8cu7',
-      name: 'Official Rep 8'
-    },
-    {
-      id: 'btcnew_35pjmicedocz47qyz9ct4p7pe45p5aazphaepuugjpyrhemnqsxj8iqdchfb',
-      name: 'Official Rep 9'
-    },
-    {
-      id: 'btcnew_3cupmhfs4quecmzbignh9h75a7erj9eh6kd39iczmxdf4mu1utai7jjinj5b',
-      name: 'Official Rep 10'
-    },
+    }
   ];
 
 }
