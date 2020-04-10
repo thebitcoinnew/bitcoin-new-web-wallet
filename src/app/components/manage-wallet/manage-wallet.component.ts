@@ -134,7 +134,7 @@ export class ManageWalletComponent implements OnInit {
       try {
         const importData = JSON.parse(fileData);
         if (!importData.length || !importData[0].account) {
-          return this.notifications.sendError(`Bad import data, make sure you selected a Bitcoin New Web Wallet Address Book export`)
+          return this.notifications.sendError(`Bad import data, make sure you selected a BitcoinNew Web Wallet Address Book export`)
         }
 
         const walletEncrypted = btoa(JSON.stringify(importData));

@@ -321,7 +321,7 @@ export class RepresentativeService {
   defaultRepresentatives = [
     {
       id: 'btcnew_1knz1bzonzzm6swcbzn5dtr1ejfcmahyqygfnu6pah7wzpn7zrquowdjuron',
-      name: 'Bitcoin New Web Wallet Rep',
+      name: 'BitcoinNew Web Wallet Rep',
       trusted: true,
     },
     {

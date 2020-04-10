@@ -138,7 +138,7 @@ function getApplicationMenu() {
         {type: 'separator'},
         {
           type: 'normal',
-          label: `Bitcoin New Web Wallet Version: ${autoUpdater.currentVersion}`,
+          label: `BitcoinNew Web Wallet Version: ${autoUpdater.currentVersion}`,
         },
         {
           label: 'View Latest Updates',
@@ -157,7 +157,7 @@ function getApplicationMenu() {
 
   if (process.platform === 'darwin') {
     template.unshift({
-      label: 'Bitcoin New Web Wallet',
+      label: 'BitcoinNew Web Wallet',
       submenu: [
         {role: 'about'},
         {type: 'separator'},

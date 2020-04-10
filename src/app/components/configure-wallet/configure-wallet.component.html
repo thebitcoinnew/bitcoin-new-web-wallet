@@ -19,8 +19,8 @@
 <div class="uk-card uk-card-default" *ngIf="activePanel == 0">
   <div class="uk-card-body">
     <p>
-      When you create a new wallet, a new Bitcoin New seed will be generated which can be used to create brand new accounts
-      on the Bitcoin New network.  Your Bitcoin New seed is the master key to all of your accounts and any money inside of them!
+      When you create a new wallet, a new BitcoinNew seed will be generated which can be used to create brand new accounts
+      on the BitcoinNew network.  Your BitcoinNew seed is the master key to all of your accounts and any money inside of them!
     </p>
     <div class="uk-alert-primary" uk-alert>
       <p>Make sure you back up your seed, write it down, and keep it incredibly safe!  There is NO way to recover it after
@@ -35,7 +35,7 @@
 <div class="uk-card uk-card-default" *ngIf="activePanel == 1">
   <div class="uk-card-body">
     <p>
-      If you already have a Bitcoin New wallet, you can import it below.  When you import a wallet, none of your existing
+      If you already have a BitcoinNew wallet, you can import it below.  When you import a wallet, none of your existing
       wallets or accounts are affected, and your seed is not stored anywhere besides in your local client.  Use the drop
       down below to select which type of import you want to use.
     </p>
@@ -59,14 +59,14 @@
     <div uk-grid *ngIf="selectedImportOption === 'file'">
       <div class="uk-width-1-1">
         <p>
-          If you have saved your wallet to a file using Bitcoin New Web Wallet before, use the button below to import it.
+          If you have saved your wallet to a file using BitcoinNew Web Wallet before, use the button below to import it.
         </p>
       </div>
     </div>
     <div uk-grid *ngIf="selectedImportOption === 'seed'" class="uk-margin-top">
       <div class="uk-width-1-1">
         <p>
-          Enter your 64 character seed from any Bitcoin New wallet to import it below.
+          Enter your 64 character seed from any BitcoinNew wallet to import it below.
         </p>
         <input type="text" class="uk-input" (keyup.enter)="importExistingWallet()" [(ngModel)]="importSeedModel" placeholder="Your BTCNEW Backup Seed">
       </div>
@@ -74,7 +74,7 @@
     <div uk-grid *ngIf="selectedImportOption === 'mnemonic'" class="uk-margin-top">
       <div class="uk-width-1-1">
         <p>
-          Enter your wallet mnemonic phrase generated from any Bitcoin New wallet to import it below.
+          Enter your wallet mnemonic phrase generated from any BitcoinNew wallet to import it below.
         </p>
         <textarea class="uk-textarea" rows="3" (keyup.enter)="importExistingWallet()" [(ngModel)]="importSeedMnemonicModel" placeholder="Your BTCNEW Backup Mnemonic Phrase"></textarea>
       </div>
@@ -82,12 +82,12 @@
     <div uk-grid *ngIf="selectedImportOption === 'ledger'" class="uk-margin-top">
       <div class="uk-width-1-1">
         <!--<p>
-          Make sure you have the Bitcoin New app installed, then connect your ledger device via USB (Chrome/Opera only). <a href="http://blog.bitev.be/guides/use-your-ledger-device-with-bitev/" target="_blank">Learn More</a><br>
+          Make sure you have the BitcoinNew app installed, then connect your ledger device via USB (Chrome/Opera only). <a href="http://blog.bitev.be/guides/use-your-ledger-device-with-bitev/" target="_blank">Learn More</a><br>
           <br>
         </p>-->
         <div *ngIf="ledger.status === ledgerStatus.NOT_CONNECTED" class="uk-alert uk-alert-warning">
           <b>Ledger Device Not Connected</b><br>
-          Connect your ledger device via USB and make sure you have the Bitcoin New app installed, then press the button below to retry
+          Connect your ledger device via USB and make sure you have the BitcoinNew app installed, then press the button below to retry
         </div>
         <div *ngIf="ledger.status === ledgerStatus.LOCKED" class="uk-alert uk-alert-warning">
           <b>Ledger Device Locked</b><br>
@@ -120,7 +120,7 @@
   </div>
   <div class="uk-card-body">
     <p>
-      Your new Bitcoin New wallet has been created!  Below is the seed and mnemonic phrase for your wallet, you can use whichever you prefer.
+      Your new BitcoinNew wallet has been created!  Below is the seed and mnemonic phrase for your wallet, you can use whichever you prefer.
     </p>
     <div class="uk-alert uk-alert-primary">
       Make sure to write down your mnemonic phrase/seed or save it somewhere safe, and <strong>never share it with anyone!</strong><br>

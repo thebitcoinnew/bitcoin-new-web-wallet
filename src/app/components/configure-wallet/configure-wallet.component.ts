@@ -27,7 +27,7 @@ export class ConfigureWalletComponent implements OnInit {
   importOptions = [
     { name: 'BTCNEW Seed', value: 'seed' },
     { name: 'BTCNEW Mnemonic Phrase', value: 'mnemonic' },
-    { name: 'Bitcoin New Web Wallet Wallet File', value: 'file' },
+    { name: 'BitcoinNew Web Wallet Wallet File', value: 'file' },
   ];
 
   ledgerStatus = LedgerStatus;
@@ -96,7 +96,7 @@ export class ConfigureWalletComponent implements OnInit {
     }
 
     if (this.ledger.status === LedgerStatus.LOCKED) {
-      return this.notifications.sendWarning(`Unlock your ledger device and open the Bitcoin New app to continue`);
+      return this.notifications.sendWarning(`Unlock your ledger device and open the BitcoinNew app to continue`);
     }
 
     if (refreshOnly) {
@@ -128,10 +128,10 @@ export class ConfigureWalletComponent implements OnInit {
 
     const UIkit = window['UIkit'];
     try {
-      await UIkit.modal.confirm('<p style="text-align: center;"><span style="font-size: 18px;">You are about to create a new wallet<br>which will <b>overwrite your existing wallet</b></span><br><br><b style="font-size: 18px;">Be sure you have saved your current Bitcoin New seed before continuing</b><br><br>Without it - <b>ALL FUNDS WILL BE UNRECOVERABLE</b></p>');
+      await UIkit.modal.confirm('<p style="text-align: center;"><span style="font-size: 18px;">You are about to create a new wallet<br>which will <b>overwrite your existing wallet</b></span><br><br><b style="font-size: 18px;">Be sure you have saved your current BitcoinNew seed before continuing</b><br><br>Without it - <b>ALL FUNDS WILL BE UNRECOVERABLE</b></p>');
       return true;
     } catch (err) {
-      this.notifications.sendInfo(`Use the 'Manage Wallet' page to back up your Bitcoin New seed before continuing!`);
+      this.notifications.sendInfo(`Use the 'Manage Wallet' page to back up your BitcoinNew seed before continuing!`);
       return false;
     }
   }

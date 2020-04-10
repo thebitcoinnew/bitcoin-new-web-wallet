@@ -104,7 +104,7 @@ export class AppComponent implements OnInit {
     try {
       //await this.updateFiatPrices();
     } catch (err) {
-      this.notifications.sendWarning(`There was an issue retrieving latest Bitcoin New price.  Ensure your AdBlocker is disabled on this page then reload to see accurate FIAT values.`, { length: 0, identifier: `price-adblock` });
+      this.notifications.sendWarning(`There was an issue retrieving latest BitcoinNew price.  Ensure your AdBlocker is disabled on this page then reload to see accurate FIAT values.`, { length: 0, identifier: `price-adblock` });
     }
 
   }
@@ -125,7 +125,7 @@ export class AppComponent implements OnInit {
     } else if (searchData.length === 64) {
       this.router.navigate(['transaction', searchData]);
     } else {
-      this.notifications.sendWarning(`Invalid Bitcoin New account or transaction hash!`)
+      this.notifications.sendWarning(`Invalid BitcoinNew account or transaction hash!`)
     }
     this.searchData = '';
   }
@@ -136,7 +136,7 @@ export class AppComponent implements OnInit {
 
   retryConnection() {
     this.walletService.reloadBalances(true);
-    this.notifications.sendInfo(`Attempting to reconnect to Bitcoin New node`);
+    this.notifications.sendInfo(`Attempting to reconnect to BitcoinNew node`);
   }
 
   async updateFiatPrices() {

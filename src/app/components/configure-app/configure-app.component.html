@@ -1,6 +1,6 @@
 <div class="uk-animation-slide-left-small" uk-grid>
   <div class="uk-width-1-1">
-    <h2>Configure Bitcoin New Web Wallet</h2>
+    <h2>Configure BitcoinNew Web Wallet</h2>
 
     <div class="uk-card uk-card-default uk-margin">
       <div class="uk-card-header">
@@ -158,7 +158,7 @@
 
                 <div class="uk-form-controls">
                   <div class="uk-inline uk-width-1-1">
-                    <input (blur)="validateRepresentative()" (keyup)="searchRepresentatives()" (focus)="searchRepresentatives()" [(ngModel)]="defaultRepresentative" class="uk-input" type="text" placeholder="Leave blank to use Bitcoin New Web Wallet" #repInput>
+                    <input (blur)="validateRepresentative()" (keyup)="searchRepresentatives()" (focus)="searchRepresentatives()" [(ngModel)]="defaultRepresentative" class="uk-input" type="text" placeholder="Leave blank to use BitcoinNew Web Wallet" #repInput>
 
                     <div *ngIf="(representativeResults$ | async).length" [hidden]="!showRepresentatives" class="uk-animation-slide-down-small uk-width-1-1 uk-card uk-card-default uk-card-body uk-position-absolute" style="z-index: 15000">
                       <ul class="uk-nav uk-nav-default">
@@ -228,7 +228,7 @@
                   <div class="uk-inline uk-width-1-1" *ngIf="showServerConfigs()">
                     <input [(ngModel)]="serverAPI" class="uk-input uk-margin-small-bottom" type="text" placeholder="https://webwallet.bitev.be/api/node-api">
                     <span class="uk-text-meta">
-                      This server must be running the <a href="https://github.com/thebitcoinnew/bitcoin-new-web-wallet-server" target="_blank">Bitcoin New Web Wallet Server</a> application, or an API compliant with it.<br>
+                      This server must be running the <a href="https://github.com/thebitcoinnew/bitcoin-new-web-wallet-server" target="_blank">BitcoinNew Web Wallet Server</a> application, or an API compliant with it.<br>
                       Timestamps in the application are dependant on this server's access to them.
                     </span>
                   </div>
@@ -273,7 +273,7 @@
                   <div class="uk-inline uk-width-1-1" *ngIf="showServerConfigs()">
                     <input [(ngModel)]="serverWS" class="uk-input uk-margin-small-bottom" id="form-horizontal-text2" type="text" placeholder="wss://ws.webwallet.bitev.be/">
                     <span class="uk-text-meta">
-                      This server must be running the <a href="https://github.com/thebitcoinnew/bitcoin-new-web-wallet-ws" target="_blank">Bitcoin New Web Wallet Websocket</a> application, or a WebSocket API compliant with it.<br>
+                      This server must be running the <a href="https://github.com/thebitcoinnew/bitcoin-new-web-wallet-ws" target="_blank">BitcoinNew Web Wallet Websocket</a> application, or a WebSocket API compliant with it.<br>
                       <i>Note: Since this server only notifies about new transactions, most of the wallet functions fine without it.</i>
                     </span>
                   </div>

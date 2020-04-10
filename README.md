@@ -1,6 +1,6 @@
-# Bitcoin New Web Wallet
+# BitcoinNew Web Wallet
 
-Bitcoin New Web Wallet is a fully client-side signing wallet for sending and receiving [Btcnew](https://github.com/btcnewcurrency/raiblocks) 
+BitcoinNew Web Wallet is a fully client-side signing wallet for sending and receiving [Btcnew](https://github.com/btcnewcurrency/raiblocks) 
 on your [desktop](https://github.com/thebitcoinnew/bitcoin-new-web-wallet/releases) or [in your browser](https://webwallet.bitev.be)
 
 ![BtcnewVault Screenshot](https://s3-us-west-2.amazonaws.com/webwallet.bitev.be/BtcnewVault-Preview.png)
@@ -15,10 +15,10 @@ ___
 * [Acknowledgements](#acknowledgements)
 
 
-# Install Bitcoin New Web Wallet
-Bitcoin New Web Wallet is available on your desktop (Windows/Mac/Linux) - just head over to the [releases section](https://github.com/thebitcoinnew/bitcoin-new-web-wallet/releases) and download the latest version for your OS.
+# Install BitcoinNew Web Wallet
+BitcoinNew Web Wallet is available on your desktop (Windows/Mac/Linux) - just head over to the [releases section](https://github.com/thebitcoinnew/bitcoin-new-web-wallet/releases) and download the latest version for your OS.
 
-You can also use Bitcoin New Web Wallet from any device on the web at [webwallet.bitev.be](https://webwallet.bitev.be)
+You can also use BitcoinNew Web Wallet from any device on the web at [webwallet.bitev.be](https://webwallet.bitev.be)
 
 
 # Bugs/Feedback
@@ -27,8 +27,8 @@ We are continually improving and adding new features based on the feedback you p
 
 ___
 
-#### Everything below is only for contributing to the development of Bitcoin New Web Wallet
-#### To download Bitcoin New Web Wallet go to the [releases section](https://github.com/thebitcoinnew/bitcoin-new-web-wallet/releases), or use the web wallet at [webwallet.bitev.be](https://webwallet.bitev.be)
+#### Everything below is only for contributing to the development of BitcoinNew Web Wallet
+#### To download BitcoinNew Web Wallet go to the [releases section](https://github.com/thebitcoinnew/bitcoin-new-web-wallet/releases), or use the web wallet at [webwallet.bitev.be](https://webwallet.bitev.be)
 
 ___
 

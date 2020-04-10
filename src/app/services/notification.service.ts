@@ -41,7 +41,7 @@ export class NotificationService {
     this.sendWarning(
       `<b>Notice:</b> You may experience issues using a Ledger device with Google Chrome. ` +
       `If you do please use Brave/Opera browser or ` +
-      `<a href="https://github.com/thebitcoinnew/bitcoin-new-web-wallet/releases" target="_blank">Bitcoin New Web Wallet Desktop</a>. ` +
+      `<a href="https://github.com/thebitcoinnew/bitcoin-new-web-wallet/releases" target="_blank">BitcoinNew Web Wallet Desktop</a>. ` +
       `&nbsp; <a href="https://github.com/thebitcoinnew/bitcoin-new-web-wallet/issues/69" target="_blank">More Info</a>`,
       { length: 0, identifier: 'chrome-ledger' }
       );

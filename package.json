@@ -2,7 +2,7 @@
   "name": "BitcoinNewVault",
   "version": "1.2.1",
   "license": "MIT",
-  "description": "Wallet for interacting with Bitcoin New",
+  "description": "Wallet for interacting with BitcoinNew",
   "author": "Itachi",
   "main": "desktop-app/dist/desktop-app.js",
   "scripts": {
