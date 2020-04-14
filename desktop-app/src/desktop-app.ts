@@ -60,7 +60,7 @@ app.on('ready', () => {
   });
 
   // Check for any updates on GitHub
-  checkForUpdates();
+  //checkForUpdates();
 });
 
 // Quit when all windows are closed.
