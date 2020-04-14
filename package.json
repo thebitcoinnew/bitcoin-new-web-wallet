@@ -1,5 +1,5 @@
 {
-  "name": "BitcoinNewVault",
+  "name": "BitcoinNewWebWallet",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Wallet for interacting with BitcoinNew",
@@ -90,9 +90,9 @@
     "uikit": "^3.0.0-beta.40"
   },
   "build": {
-    "appId": "com.electron.nanovault",
+    "appId": "com.electron.bitcoinnewwebwallet",
     "buildVersion": "1.2.1",
-    "productName": "BitcoinNewVault",
+    "productName": "BitcoinNewWebWallet",
     "copyright": "Copyright © 2020 Itachi",
     "directories": {
       "output": "desktop-app/build",
@@ -104,9 +104,9 @@
       "extendInfo": {
         "CFBundleURLTypes": [
           {
-            "CFBundleURLName": "xrb",
+            "CFBundleURLName": "btcnew",
             "CFBundleURLSchemes": [
-              "xrb"
+              "btcnew"
             ]
           }
         ]
@@ -119,13 +119,13 @@
       {
         "provider": "github",
         "owner": "thebitcoinnew",
-        "repo": "nanovault"
+        "repo": "bitcoin-new-web-wallet"
       }
     ],
     "protocols": {
-      "name": "xrb",
+      "name": "btcnew",
       "schemes": [
-        "xrb"
+        "btcnew"
       ],
       "role": "Viewer"
     }
